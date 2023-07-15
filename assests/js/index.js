@@ -124,12 +124,14 @@ const observer = new IntersectionObserver(
     }
     entries.forEach((entry) => {
       // Process the intersection information
+
       if (entry.isIntersecting) {
         document
           .getElementsByClassName(entry.target.id)[0]
           .classList.add("active");
         //entry.target.classList.add('active');
-        // console.log(entry.target);
+        console.log(entry.target);
+        console.log('eee');
         // Element is now intersecting
         //   console.log('Element is visible');
       }
@@ -137,7 +139,7 @@ const observer = new IntersectionObserver(
   },
   {
     root: null, // Use the viewport as the root
-    rootMargin: "0px", // Add a margin around the viewport
+    rootMargin: "10px", // Add a margin around the viewport
     threshold: 1.0, // Fully visible threshold
   }
 );

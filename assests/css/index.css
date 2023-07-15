@@ -121,7 +121,13 @@ body {
 #portfolio .content .div {
   height: 100%;
   overflow: scroll;
-  margin-bottom: 10px;
+  /* margin-bottom: 100px;
+  background-color: #0fc3f2; */
+  max-height: 100%;
+
+}
+#portfolio .content .div::-webkit-scrollbar {
+  display: none;
 }
 #portfolio .content #home {
   scroll-snap-align: start;
@@ -204,6 +210,7 @@ body {
 #portfolio .content #about {
   /* background-color: #2c98f0; */
   scroll-snap-align: start;
+  max-height: 100%;
 }
 .about-desc h3 {
   font-size: 18px;
@@ -409,7 +416,8 @@ body {
 #portfolio .content #skills {
   /* background-color: darkgoldenrod; */
   scroll-snap-align: start;
-  overflow: scroll;
+  /* overflow: scroll; */
+  max-height: 100%;
 }
 #portfolio .content #skills .skills{
   width: 100%;
