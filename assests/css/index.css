@@ -408,8 +408,7 @@ body {
 #portfolio .content #skills {
   /* background-color: darkgoldenrod; */
   scroll-snap-align: start;
-  overflow: hidden;
-  height: auto;
+  overflow: scroll;
 }
 #portfolio .content #skills .skills{
   width: 100%;
@@ -660,8 +659,6 @@ font-size: 16px;
 #portfolio .content #experience {
   /* background-color: fuchsia; */
   scroll-snap-align: start;
-  overflow: hidden;
-
 }
 
 .timeline-centered {
