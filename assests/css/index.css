@@ -413,6 +413,7 @@ body {
 #portfolio .content #skills .skills{
   width: 100%;
   display: flex;
+  justify-content: center;
   /* background-color: red; */
 }
 #portfolio .content #skills .skills div:first-child{
