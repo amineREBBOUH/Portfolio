@@ -5,6 +5,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Quicksand", Arial, sans-serif;
+  overflow: hidden;
 }
 #portfolio {
   height: 100%;
