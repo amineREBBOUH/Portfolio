@@ -408,7 +408,7 @@ body {
             margin: auto;
           }
 /* end about */
-#portfolio .content #certifacate {
+#portfolio .content #education {
   /* background-color: palegoldenrod; */
   scroll-snap-align: start;
 }
@@ -942,3 +942,4 @@ font-size: 16px;
   }
 }
 /* test */
+
